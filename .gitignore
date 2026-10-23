@@ -1,0 +1,51 @@
+# Ignore system and IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore Claude CLI folder
+.claude/
+
+# Backend - Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.Python
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+backend/.pytest_cache/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+
+# Frontend - Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Task storage (optional - remove this line if you want to include sample data)
+backend/tasks.json
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
